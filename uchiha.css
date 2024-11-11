@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-image: url(uchihas.png);
+    font-size: 2rem;
+    background-repeat: no-repeat;
+}
+header{
+    background-color: gray;
+}
+
+/* design */
+
+
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline;
+    margin-left: 100px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+/*content*/
+
+.header{
+    font-size: 70px;
+    margin-top: 70px;
+    padding: 500px;
+    color: white;
+}
+
+/*footer*/
+
+
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color: gray;
+    color: white;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+
+
+
